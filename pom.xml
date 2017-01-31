@@ -35,20 +35,20 @@
         <hibernate.jpa21.api.version>1.0.0.Final</hibernate.jpa21.api.version>
 
         <!-- Hibernate's implementation -->
-        <hibernate.version>5.0.1.Final</hibernate.version>
+        <hibernate.version>5.2.6.Final</hibernate.version>
 
         <!-- The standardized Bean Validation API -->
         <validation.api.version>1.1.0.Final</validation.api.version>
 
         <!-- Hibernate's implementation -->
-        <hibernate.validator.version>5.2.1.Final</hibernate.validator.version>
+        <hibernate.validator.version>5.3.4.Final</hibernate.validator.version>
         <javax-el.version>3.0.1-b04</javax-el.version>
 
         <!-- Everyone's favorite -->
-        <slf4j.impl.version>1.6.1</slf4j.impl.version>
+        <slf4j.impl.version>1.7.22</slf4j.impl.version>
 
         <!-- For small scale deployment, use the H2 RDBMS, all Java -->
-        <h2.version>1.3.171</h2.version>
+        <h2.version>1.4.193</h2.version>
 
         <!-- In Java SE you should use a JTA transaction manager as a JDBC connection pool, Bitronix is good -->
         <btm.version>2.1.3</btm.version>
@@ -63,9 +63,9 @@
         <shrinkwrap.version>2.0.2</shrinkwrap.version>
         <arquillian.version>1.0.4.Final</arquillian.version>
         <arquillian.extension.persistence.version>1.0.0.Alpha6</arquillian.extension.persistence.version>
-        <arquillian.extension.rest.version>1.0.0.Alpha3</arquillian.extension.rest.version>
+        <arquillian.extension.rest.version>1.0.0.Alpha4</arquillian.extension.rest.version>
         <dbunit.version>2.4.9</dbunit.version>
-        <wildfly.version>8.1.0.Final</wildfly.version>
+        <wildfly.version>8.2.1.Final</wildfly.version>
 
         <!-- Wildfly server deployment plugin for the application examples -->
         <wildfly.maven-plugin.version>1.0.2.Final</wildfly.maven-plugin.version>

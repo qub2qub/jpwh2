@@ -97,12 +97,12 @@
             <version>${arquillian.version}</version>
         </dependency>
         <!-- This means a Wildfly needs to already be running, we make a remote connection! -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.wildfly</groupId>
             <artifactId>wildfly-arquillian-container-remote</artifactId>
             <version>${wildfly.version}</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
         <!-- DBUnit test data imports-->
         <dependency>
             <groupId>org.jboss.arquillian.extension</groupId>
